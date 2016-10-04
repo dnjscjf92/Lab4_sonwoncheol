@@ -9,17 +9,24 @@ public class Calculator {
 	
 	public double add(double x, double y){
 		
+		
 		return x+y;
 	}
 	
 	public double sub(double x,double y){
 		
-		return 0;
+		return x-y;
 	}
 	
 	public double div(double x, double y){
 		
-		return 0;
+		double div = x/y;
+		if(y==0){
+		System.out.println("!!!!ERROR!!!!");
+		div = -1;
+		}
+		
+		return div;
 	}
 	
 	public double mul(double x, double y){
@@ -27,9 +34,10 @@ public class Calculator {
 		return x*y;
 	}
 	
-	public double mod(double x,double y){
+	public double remainder(double x, double y){
 		
-		return 0;
+		
+		return x%y; 
 	}
 	
 	public String toString(){
