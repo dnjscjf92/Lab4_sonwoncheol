@@ -9,7 +9,7 @@ public class Calculator {
 	
 	public double add(double x, double y){
 		
-		return 0;
+		return x+y;
 	}
 	
 	public double sub(double x,double y){
@@ -24,7 +24,7 @@ public class Calculator {
 	
 	public double mul(double x, double y){
 		
-		return 0;
+		return x*y;
 	}
 	
 	public double mod(double x,double y){
@@ -32,5 +32,9 @@ public class Calculator {
 		return 0;
 	}
 	
+	public String toString(){
+	String a = "LeeHakSeung,201221014,ChoiJungonyg,201221764,Sonwoncheol,201220598,https://github.com/hakseunglee/lap4_calculator.git";
 	
+	return a;
+	}
 }
