@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Calculator_main {
 
-	
 	public static void main(String[] arg){
 		Scanner sc = new Scanner(System.in);
 		Calculator c = new Calculator();
